@@ -1,3 +1,8 @@
+<!-- TODO: finaler Link für upload von Bildern -->
+<!-- TODO: replace image Sarah & Steffi -->
+<!-- TODO: Upload static website -->
+<!-- TODO: parkflächenstyle anpassen -->
+
 <html>
     <head>
         <title>Verena & Jeremias | 2. September 2023</title>
@@ -16,7 +21,27 @@
                 <img class="logo" src="assets/logo_bw.svg" />
         
                 <h1>Hochzeit von Verena & Jeremias</h1>
-                <h2>2. September 2023</h2>    
+                <h2>2. September 2023</h2>  
+                <h3>
+                    <div class="counter">
+                        <div class="counter-item">
+                            <span class="counter-value" id="days">00</span>
+                            <span class="counter-label">Tage</span>
+                        </div>
+                        <div class="counter-item">
+                            <span class="counter-value" id="hours">00</span>
+                            <span class="counter-label">Stunden</span>
+                        </div>
+                        <div class="counter-item">
+                            <span class="counter-value" id="minutes">00</span>
+                            <span class="counter-label">Minuten</span>
+                        </div>
+                        <div class="counter-item">
+                            <span class="counter-value" id="seconds">00</span>
+                            <span class="counter-label">Sekunden</span>
+                        </div>
+                    </div>
+                </h3>  
                 
             </div>
 
@@ -25,14 +50,18 @@
             </div>
         </section>
 
+        <!-- #into -->
+        <section class="content-section content-section--colored">
+            <h3><a name="intro"></a>Wir heiraten!</h3>
+            <p class="catering-description">
+                Und sind überglücklich, dass wir diesen besondren Tag mit Dir verbringen dürfen! Bevor wir es am 02.09.2023 ordentlich mit Dir krachen lassen, haben wir hier auf unserer Hochzeits-Website alle wichtigen Details für Dich rund um unseren großen Tag zusammengetragen.
+            </p>
+        </section>
+
         <!-- #menu -->
         <section class="content-section content-section--clean">
             <h3>Inhalt</h3>
             <ol class="menu">
-                <!-- TODO: finaler Link für upload von Bildern -->
-                <!-- TODO: replace image Sarah & Steffi -->
-                <!-- TODO: Upload static website -->
-
                 <li class="menu-item"><a href="#facts" class="menu-item-link">Die wichtigsten Daten</a></li>
                 <li class="menu-item"><a href="#checklist" class="menu-item-link">Deine Checkliste</a></li>
                 <li class="menu-item"><a href="#commitment" class="menu-item-link">Zu-/Absage mitteilen</a></li>
@@ -55,9 +84,8 @@
 
             <ul class="facts-list">
                 <li class="facts-list-item">Datum: <strong>2. September 2023</strong></li>
-                <li class="facts-list-item">Trauung: <strong>15:00 Uhr</strong></li>
-                <li class="facts-list-item">Sektempfang: 16:00 Uhr</li>
-                <li class="facts-list-item">Feier: 17:30 Uhr</li>
+                <li class="facts-list-item">Trauung: <strong>14:00 Uhr</strong></li>
+                <li class="facts-list-item">Sektempfang: <strong>15:00 Uhr</strong></li>
                 <li class="facts-list-item">Ort: <strong>Alte Kelter Langenbeutingen</strong><br /><span>Beutinger Berg 1, 74243, 74243 Langenbrettach</span></li>
                 <li class="facts-list-item">Trauzeugen: <strong>Mareike Brecht</strong> & <strong>Jonathan Carle</strong></span></li>
             </ul>
@@ -85,7 +113,7 @@
             <h3><a name="commitment"></a>Zu-/Absage mitteilen</h3>
 
             <p class="commitment-description">
-                Falls noch nicht erledigt, teile uns bitte deine <strong>Zusage</strong> oder <strong>Absage</strong> bis zum <strong>1. März 2023</strong> mit.<br />
+                Falls noch nicht erledigt, teile uns bitte deine <strong>Zusage</strong> oder <strong>Absage</strong> bis zum <strong>1. Juni 2023</strong> mit.<br />
                 Dafür kannst du gerne das untenstehende Formular ausfüllen:
 
                 <form method="post" id="form">
@@ -94,7 +122,7 @@
                         <input type="radio" name="teilnahme" value="Absage" id="absage" required /><label for="absage">Absage</label>
                     </div>
                     <input type="email" name="email" placeholder="deine.mail@anbieter.de" />
-                    <input type="text" name="namen" placeholder="Deinen/Eure Namen" required />
+                    <input type="text" name="namen" placeholder="Alle Namen der Rückmeldung" required />
                     <div class="form-field">
                         <label for="vegetarisch">Vegetarisch:</label><select id="vegetarisch" name="vegetarisch" required>
                             <option value="0" selected="selected">0</option>
@@ -134,32 +162,36 @@
 
             <table class="procedure-table">
                 <tr>
-                    <td>14:30 Uhr</td>
+                    <td>14:00 Uhr</td>
                     <td>Beginn freie Trauung</td>
                 </tr>
                 <tr>
-                    <td>15:30 Uhr</td>
+                    <td>15:00 Uhr</td>
                     <td>Sektempfang</td>
                 </tr>
-                <tr>
+                <!-- <tr>
                     <td>16:30 Uhr</td>
                     <td>Gruppenbilder</td>
-                </tr>
+                </tr> -->
                 <tr>
                     <td>18:00 Uhr</td>
                     <td>Buffet</td>
                 </tr>
-                <tr>
+                <!-- <tr>
                     <td>ab 20:00 Uhr</td>
                     <td>Eröffnung Bar</td>
-                </tr>
-                <tr>
+                </tr> -->
+                <!-- <tr>
                     <td>21:00 Uhr</td>
                     <td>Hochzeitstanz</td>
+                </tr> -->
+                <tr>
+                    <td>ab 21:00 Uhr</td>
+                    <td>Tanzfläche ist eröffnet</td>
                 </tr>
                 <tr>
-                    <td>ab 21:15 Uhr</td>
-                    <td>Tanzfläche ist eröffnet</td>
+                    <td></td>
+                    <td>Open End</td>
                 </tr>
             </table>
 
@@ -178,16 +210,17 @@
 
             <p class="location-description">
                 Unsere Hochzeitsfeier findet in und rund um die <a href="https://goo.gl/maps/TugV8RXjdJvVJWFE9" target="_blank">"Alte Kelter" Langenbeutingen</a> statt.<br />
-                In vorangegangener Grafik findest du alle wichtigen Orte an denen du dich zu gegebener Zeit auffinden solltest.<br /><br />
+                <!-- In vorangegangener Grafik findest du alle wichtigen Orte an denen du dich zu gegebener Zeit auffinden solltest.<br /><br /> -->
             </p>
 
+            <!-- TODO: Bild aktualisieren & hübsch machen! -->
             <img src="assets/images/map_2.png" class="location-image" />
 
             <p class="location-description">
-                Bitte parkt nur auf den grün eingezeichneten Flächen oder auf dem Weg zur Halle selbst. Achtet dabei darauf, dass die Straße für andere Fahrzeuge befahrbar bleibt!<br />
+                Bitte parke nur auf den eingezeichneten Flächen oder auf dem Weg zur Alten Kelter selbst auf der linken Seite (gegenüberliegende Seite der Weinberge). Achte dabei darauf, dass die Straße für andere Fahrzeuge befahrbar bleibt!<br />
                 Die rot markierten Bereiche müssen in jedem Fall frei gehalten werden!<br /><br />
 
-                Es führt leider keine "Hauptstraße" zur "Alten Kelter", aber um euch die Wegfindung zu erleichtern werden wir ab Langenbeutingen an den wichtigsten Wegpunkten Schilder anbringen.
+                Es führt leider keine "Hauptstraße" zur "Alten Kelter", aber um dir die Wegfindung zu erleichtern werden wir ab Ortsausgang Langenbeutingen an den wichtigsten Wegpunkten Schilder anbringen.
             </p>
         </section>
     
@@ -197,12 +230,12 @@
 
             <p class="catering-description">
                 Für Essen und Getränke ist während unserer Hochzeit stets gesorgt. Es wird kleine Häppchen direkt im Anschluss der Trauung gemeinsam mit einem Sektempfang geben.<br />
-                Anschließend könnt ihr euch jederzeit gekühlte <strong>Getränke aus den Kühlschränken</strong> vor Ort nehmen, oder ein passendes Getränk bei unseren lieben Helfern <strong>bestellen</strong>.<br /><br />
+                Anschließend kannst du dir jederzeit gekühlte <strong>Getränke aus den Kühlschränken</strong> vor Ort nehmen, oder ein passendes Getränk bei unseren lieben Helfern <strong>bestellen</strong>.<br /><br />
                 Um ca. 18:00 Uhr gibt es ein umfangreiches <strong>Grillbuffet</strong> mit allerlei Fleisch, Käse, Gemüse und ausreichend vegetarische und vegane Gerichte.<br />
-                Um uns die Planung etwas zu erleichtern gebt bitte eure <strong>Essenspräferenzen</strong> wie <strong>"vegetarisch"</strong>, <strong>"vegan"</strong> und eventuelle <strong>Allergien</strong> bei der Zusage an. Nur so können wir auf jeden Rücksicht nehmen und ein leckeres Buffet organisieren.<br /><br />
-                Falls unsere kleinsten Gäste noch besondere Nahrung benötigen, nehmt diese bitte selbst mit oder meldet euch rechtzeitig bei uns.<br />
+                Um uns die Planung etwas zu erleichtern gib bitte deine <strong>Essenspräferenzen</strong> wie <strong>"vegetarisch"</strong>, <strong>"vegan"</strong> und eventuelle <strong>Allergien</strong> bei der Zusage an. Nur so können wir auf jeden Rücksicht nehmen und ein leckeres Buffet organisieren.<br /><br />
+                Falls unsere kleinsten Gäste noch besondere Nahrung benötigen, nimm diese bitte selbst mit oder melde dich rechtzeitig bei uns.<br /><br />
                 Am späteren Abend wird es an der <strong>Bar alkoholhaltige und alkoholfreie Cocktails und Drinks</strong> geben.<br />
-                Falls euch am späten Abend beim vielen Feiern doch noch der Hunger packt, könnt ihr euch auf ein <strong>kleines Mitternachtsbuffet</strong> freuen!
+                Falls dich am späten Abend beim vielen Feiern doch noch der Hunger packt, kannst du dich auf einen <strong>kleinen Mitternachtssnack</strong> freuen!
             </p>
         </section>
 
@@ -212,16 +245,16 @@
 
             <p class="pictures-description">
                 Während der gesamten Trauung, dem Sektempfang und zum Beginn der Feier haben wir eine profesionelle Fotografin organisiert. 
-                Sie wird die schönen Momente einfangen und auch Bilder von euch machen. 
-                Diese werden wir auch im Anschluss mit euch teilen und ihr bekommt diese in voller Qualität.
-                Darum bitten wir euch die <strong>Handys und eigenen Kameras</strong> vor allem während der Trauung <strong>in den Taschen zu lassen</strong> und den Moment gemeinsam mit uns zu genießen!
+                Sie wird die schönen Momente einfangen und auch Bilder von dir machen. 
+                Diese werden wir auch im Anschluss mit dir teilen und du bekommst diese in voller Qualität.
+                Darum bitten wir dich die <strong>Handys und eigenen Kameras</strong> vor allem während der Trauung <strong>in den Taschen zu lassen</strong> und den Moment gemeinsam mit uns zu genießen!
             </p>
 
             <img src="assets/images/no-pictures.png" class="pictures-image" />
 
             <p class="pictures-description">
-                Falls ihr am Tag unserer Hochzeit Bilder gemacht habt, freuen wir uns, wenn ihr diese unter folgendem <a href="#" target="_blank">Link: &lt;folgt noch&gt;</a> mit uns und den anderen Gästen teilt.
-                Wir werden im Anschluss alle gelungenden Bilder der Fotografin und von euch auf dieser Seite zum Download bereitstellen, sodass ihr kein Bild von euch missen müsst.
+                Falls du am Tag unserer Hochzeit Bilder gemacht hast, freuen wir uns, wenn du diese unter folgendem <a href="#" target="_blank">Link: &lt;folgt noch&gt;</a> mit uns und den anderen Gästen teilst.
+                Wir werden im Anschluss alle Bilder der Fotografin und von den Gästen auf dieser Seite zum Download bereitstellen, sodass du kein Bild von dir missen musst.
             </p>
         </section>
 
@@ -230,8 +263,8 @@
             <h3><a name="accommodation"></a>Du benötigst eine Unterkunft?</h3>
 
             <p class="accommodation-description">
-                Ihr habt eine weitere Anreise, hättet gerne den Luxus eines nahegelegenen Hotels oder findet keine geeignete Unterkunft für die Hochzeit?<br />
-                Kein Problem! Wir haben für euch bis zum Juni 2023 insgesamt 10 Zimmer im <a target="_blank" href="https://kueffner-hof.de/hotel/">Küffner Hof</a> reserviert.<br /><br />
+                Du hast eine weite Anreise, hättest gerne den Luxus eines nahegelegenen Hotels oder du findest keine geeignete Unterkunft für die Hochzeit?<br />
+                Kein Problem! Wir haben für dich bis zum Juni 2023 insgesamt 10 Zimmer im <a target="_blank" href="https://kueffner-hof.de/hotel/">Küffner Hof</a> reserviert.<br /><br />
                 Dazu einfach über das Kontaktforumlar auf der verlinkten Seite oder unter der Telefon-Nummer <a href="tel:+49794691600">07946 91600</a> anrufen und ein passendes Zimmer buchen. Um eines der reservierten Zimmer zu buchen, bitte das Stichwort "Hochzeit Ehnle" angeben.<br /><br />
 
                 Die Preise sind wie auf der Webseite angegeben:
@@ -244,8 +277,8 @@
 
             <p class="accommodation-description">
                 Die Preise verstehen sich mit einem Frühstück am nächsten Morgen.<br />
-                <i>Falls hierzu weitere Fragen sind, klärt diese bitte direkt mit den Service-Mitarbeitern des Küffner Hofs.</i><br /><br />
-                Falls ihr gerne vom Hotel abgeholt werden wollt, dann meldet euch einfach bei uns und unser <a href="#taxi">Taxi</a> holt euch vor der Hochzeit direkt beim Hotel ab!
+                <i>Falls hierzu weitere Fragen sind, kläre diese bitte direkt mit den Service-Mitarbeitern des Küffner Hofs.</i><br /><br />
+                Falls du gerne vom Hotel abgeholt werden möchtest, dann melde dich einfach bei uns und unser <a href="#taxi">Taxi</a> holt dich vor der Hochzeit direkt beim Hotel ab und wird dich Abends auch wieder dorthin zurück bringen!
             </p>
 
             <img src="assets/images/zimmer.jpg" class="accommodation-image" />
@@ -256,10 +289,9 @@
             <h3><a name="taxi"></a>Wie komme ich nach Hause?</h3>
 
             <p class="taxi-description">
-                Um einen unbeschwerten Abend zu erleben, ohne die Diskussion über einen Fahrer zu führen oder anderweitig einen Fahrer organisieren zu müssen, möchten wir euch die Organisation der Heimfahrt abnehmen.<br /><br />
-                Dazu chauffiert euch unser lieber Fahrer Lukas ab 22:00 Uhr in einem bequemen VW Bus nach Hause sofern ihr in den nächst gelegenen Ortschaften <strong>Brettach</strong>, <strong>Kochersteinsfeld</strong>, <strong>Neuenstadt</strong>, <strong>Gochsen</strong> und <strong>Lampoldshausen</strong> wohnt oder eine Übernachtung im <strong>Küffner Hof</strong> gebucht habt. <br />
-                Solltet ihr eine Unterkunft beim Küffner Hof gebucht haben, so werdet ihr auch rechtzeitig um 14:00 Uhr von dort abgeholt und zur Location gebracht.<br /><br />
-                Wir freuen uns also sehr mit euch bis spät in die Nacht feiern zu können und gleichzeitig einen sicheren Transfer nach Hause anbieten zu können!
+                Um einen unbeschwerten Abend zu erleben, ohne die Diskussion über einen Fahrer zu führen oder anderweitig einen Fahrer organisieren zu müssen, möchten wir dir die Organisation der Heimfahrt abnehmen.<br /><br />
+                Dazu chauffiert dich unser lieber Fahrer Lukas ab ca. 22:00 Uhr in einem bequemen VW Bus nach Hause sofern du in den nächst gelegenen Ortschaften <strong>Brettach</strong>, <strong>Kochersteinsfeld</strong>, <strong>Neuenstadt</strong>, <strong>Gochsen</strong> und <strong>Lampoldshausen</strong> wohnst oder eine Übernachtung im <strong>Küffner Hof</strong> gebucht hast.<br /><br />
+                Wir freuen uns also sehr mit dir bis spät in die Nacht feiern und gleichzeitig einen sicheren Transfer nach Hause anbieten zu können!
             </p>
         </section>
 
@@ -270,9 +302,8 @@
             <img src="assets/images/presents.jpg" class="presents-image" />
 
             <p class="presents-description">
-                Euer größtes und schönstes Geschenk ist, uns an unserem besonderen Tag zu begleiten!<br />
-                Solltet ihr dennoch nicht davon abzubringen sein uns etwas zu schenken, dann freuen wir uns über einen Zuschuss zu unserer Reisekasse!
-                Dazu wird eine kleine Geschenke-Box vor Ort sein.
+                Deine Anwesenheit an unserem großen Tag ist für uns das schönste Geschenk. Falls du uns aber etwas schenken möchtest, würden wir uns über einen Zuschuss für unsere Reisekasse freuen. Dazu wird eine kleine Hochzeits-Box vor Ort sein.
+                Alles, was wir uns aber für unseren Hochzeitstag wünschen, ist mit dir zu feiern!
             </p>
         </section>
 
@@ -282,21 +313,16 @@
 
             <p class="childcare-description">
                 Wir freuen uns darauf, unseren besonderen Tag mit euch feiern zu können!<br />
-                Damit dieser Tag auch für euch und eure Kinder unvergesslicht wird bieten wir euch eine Kinderbetreuung an. Nutzt diese sehr gerne, um die Feier unbesorgt genießen zu können!<br />
-                Während der Trauung, dem Sektempfang und der Feier passen Sarah und Steffanie von 14:15 Uhr bis 20:00 Uhr gerne auf eure Kleinen auf.<br /><br />
+                Damit dieser Tag auch für euch und eure Kinder unvergesslicht wird, bieten wir euch eine Kinderbetreuung an. Nutzt diese sehr gerne, um die Feier unbesorgt genießen zu können!<br />
+                Während der Trauung und dem Sektempfang wird Steffi ab ca. 13:45 Uhr gerne auf eure Kleinen aufpassen.<br /><br />
 
-                Beides sind studierte Sonderpädagoginnen und dadurch die idealen Betreuerinnen für eure Kinder. Falls es Fragen oder Bedenken gibt, könnt ihr euch auch gerne direkt bei Sarah und Steffanie melden.
+                Sie ist studierte Sonderpädagogin, selbst Mutter und dadurch die ideale Betreuerin für eure Kinder. Falls es Fragen oder Bedenken gibt, könnt ihr euch gerne im Vorfeld an uns wenden.
             </p>
 
             <div class="childcare-names">
                 <div class="childcare-names-contact">
                     <div class="childcare-names-contact-name">
-                        Sarah Semet
-                    </div>
-                </div>
-                <div class="childcare-names-contact">
-                    <div class="childcare-names-contact-name">
-                        Steffanie Becker
+                        Steffi
                     </div>
                 </div>
             </div>
@@ -311,7 +337,7 @@
             <p class="witnesses-description">
                 Du würdest gerne etwas zur Hochzeit beitragen, hast eine Überraschung geplant oder hast ein anderes Anliegen, dass du uns nicht verraten möchtest? <br /><br />
                 Das ist natürlich möglich und wir freuen uns darüber!<br />
-                Aber bitte melde dich bei unseren netten Trauzeugen und kläre das im Zusammenspiel mit ihnen ab. Nur so kann alles gut geplant werden und nichts wird schief gehen.
+                Aber bitte melde dich bei unseren netten Trauzeugen und kläre das im Vorfeld mit ihnen ab. Nur so kann alles gut geplant werden und nichts wird schief gehen.
             </p>
 
             <h3 class="witnesses-second-headline"><a name="witnesses"></a>Unsere Trauzeugen</h3>
@@ -323,8 +349,7 @@
                         Jonathan Carle
                     </div>
                     <div class="witnesses-name-contact-details">
-                        Whatsapp / Telefon: +49 (0) 174 6299 036<br />
-                        E-Mail: mail@jonathancarle.de
+                        Whatsapp / Telefon: +49 (0) 174 6299 036
                     </div>
                 </div>
                 <div class="witnesses-names-contact">
@@ -332,8 +357,7 @@
                         Mareike Brecht
                     </div>
                     <div class="witnesses-name-contact-details">
-                        Whatsapp / Telefon: +49 (0) 151 5058 2002<br />
-                        E-Mail: mareike.brecht@freenet.de
+                        Whatsapp / Telefon: +49 (0) 151 5058 2002
                     </div>
                 </div>
             </div>
@@ -351,10 +375,29 @@
                 Also schaue hier gerne regelmäßig vorbei und informiere dich nochmals kurz vor der Hochzeit, ob sich etwas wichtiges für dich geändert hat.<br /><br />
                 <strong style="font-size: 1.2em">
                     Wir können es kaum erwarten und freuen uns rießig darauf,<br />
-                    unsere Hochzeit mit euch feiern zu können!
+                    unsere Hochzeit mit dir feiern zu können!<br /><br />
+                    Verena & Jeremias
                 </strong>
             </p>
         </section>
+
+        <!-- Countdown -->
+        <script>
+            document.addEventListener ("DOMContentLoaded", () => {
+                var myfunc = setInterval(function() {
+                    const countDownDate = new Date('September 2, 2023 14:00:00');
+                    const now = new Date ().getTime ();
+                    const timeleft = countDownDate - now;
+
+                    document.getElementById ("days").innerText = Math.floor (timeleft / (1000 * 60 * 60 * 24));
+                    document.getElementById ("hours").innerText = Math.floor ((timeleft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                    document.getElementById ("minutes").innerText = Math.floor ((timeleft % (1000 * 60 * 60)) / (1000 * 60));
+                    document.getElementById ("seconds").innerText = Math.floor ((timeleft % (1000 * 60)) / 1000);
+                }, 1000);
+            });
+
+            
+        </script>
 
         <!-- JQUERY + custom JS -->
         <script
