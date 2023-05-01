@@ -237,6 +237,10 @@ a[name] {
     text-align: center;
 }
 
+.contact > strong {
+    font-weight: 500;
+}
+
 .pictures-image {
     display: block;
     width: 50%;
@@ -251,9 +255,16 @@ a[name] {
     text-align: left;
     margin: auto;
     margin-top: 8px;
-    margin-left: 50%;
-    transform: translateX(-50%);
+    list-style-position: outside;
+    padding-inline-start: 0;
 }
+@media screen and (min-width:600px) {
+    .checklist-list {
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+}
+    
 .checklist-list li {
     position: relative;
     list-style: none;
@@ -279,9 +290,16 @@ a[name] {
     text-align: left;
     margin: auto;
     margin-top: 8px;
-    margin-left: 50%;
-    transform: translateX(-50%);
+    list-style-position: outside;
+    padding-inline-start: 0;
 }
+@media screen and (min-width:600px) {
+    .dresscode-list {
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
 .dresscode-list li {
     position: relative;
     list-style: none;
@@ -354,8 +372,14 @@ a[name] {
     text-align: left;
     margin: auto;
     margin-top: 8px;
-    margin-left: 50%;
-    transform: translateX(-50%);
+    list-style-position: outside;
+    padding-inline-start: 24px;
+}
+@media screen and (min-width:600px) {
+    .accommodation-list {
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
 }
 
 .facts-list {
@@ -363,9 +387,14 @@ a[name] {
     text-align: left;
     margin: auto;
     margin-top: 32px;
-    margin-left: 50%;
-    transform: translateX(-50%);
-    /* list-style-position: inside; */
+    list-style-position: outside;
+    padding-inline-start: 24px;
+}
+@media screen and (min-width:600px) {
+    .facts-list {
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
 }
 .facts-list-item {
     margin-top: 12px;
@@ -453,10 +482,14 @@ a[name] {
 /* Form elemente */
 .form-field {
     display: block;
-    width: 80%;
     max-width: 600px;
     margin: auto;
     margin-top: 16px;
+}
+@media screen and (min-width:600px) {
+    .form-field {
+        width: 80%;
+    } 
 }
 
 input[type="text"],
