@@ -215,6 +215,7 @@ a[name] {
 
 /* Content sections */
 
+.dresscode-description,
 .pictures-description,
 .checklist-description,
 .commitment-description,
@@ -244,6 +245,7 @@ a[name] {
     margin-top: 32px;
 }
 
+
 .checklist-list {
     display: inline-block;
     text-align: left;
@@ -269,6 +271,43 @@ a[name] {
     background-size: 1.2rem;
     background-repeat: no-repeat;
     background-position: center;;
+}
+
+
+.dresscode-list {
+    display: inline-block;
+    text-align: left;
+    margin: auto;
+    margin-top: 8px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+.dresscode-list li {
+    position: relative;
+    list-style: none;
+    padding-left: 1.7rem;
+    padding-top: 8px;
+}
+.dresscode-list li:before {
+    position: absolute;
+    left: 0;
+    top: 10px;
+    content:"";
+    width: 1.2rem;
+    height: 1.2rem;
+    background-image:url('assets/cross.svg');
+    background-size: 1.2rem;
+    background-repeat: no-repeat;
+    background-position: center;;
+}
+
+.dresscode-image {
+    display: block;
+    width: 50%;
+    max-width: 140px;
+    margin: auto;
+    margin-top: 32px;
+    transform: translateX(-24px);
 }
 
 
