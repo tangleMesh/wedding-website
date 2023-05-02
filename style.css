@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Songti SC';
-    font-weight: normal;
+    font-weight: bold;
     font-style: normal;
     src: url("./assets/fonts/STSongti-SC-Bold-02.woff2") format('woff2');
     /* src: url("./assets/fonts/STSongti-SC-Regular-07.woff") format('woff'); */
@@ -14,7 +14,7 @@
 }
 @font-face {
     font-family: 'Songti SC';
-    font-weight: bold;
+    font-weight: normal;
     font-style: normal;
     src: url("./assets/fonts/STSongti-SC-Regular-07.woff2") format('woff2');
     /* src: url("./assets/fonts/STSongti-SC-Bold-02.woff") format('woff'); */
