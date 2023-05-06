@@ -1,24 +1,21 @@
-@font-face {
+/* @font-face {
     font-family: 'Songti SC';
-    font-weight: bold;
+    font-weight: 600;
     font-style: normal;
     src: url("./assets/fonts/STSongti-SC-Bold-02.woff2") format('woff2');
-    /* src: url("./assets/fonts/STSongti-SC-Regular-07.woff") format('woff'); */
 }
 @font-face {
     font-family: 'Songti SC';
     font-weight: 300;
     font-style: normal;
     src: url("./assets/fonts/STSongti-SC-Light-04.woff2") format('woff2');
-    /* src: url("./assets/fonts/STSongti-SC-Light-04.woff") format('woff'); */
 }
 @font-face {
     font-family: 'Songti SC';
     font-weight: normal;
     font-style: normal;
     src: url("./assets/fonts/STSongti-SC-Regular-07.woff2") format('woff2');
-    /* src: url("./assets/fonts/STSongti-SC-Bold-02.woff") format('woff'); */
-}
+} */
 
 * {
     box-sizing: border-box;
@@ -30,7 +27,7 @@ body {
     height: 100%;
     margin: 0;
     padding: 0;
-    font-family: 'Songti SC', 'Times New Roman', serif;
+    font-family: 'EB Garamond', serif;
     font-size: 18px;
     overflow-x: hidden;
 }
@@ -62,7 +59,7 @@ a[href]:hover {
 }
 
 strong {
-    font-weight: bold;
+    font-weight: 600;
 }
 
 .content-section {
@@ -119,7 +116,7 @@ h1 {
     display: block;
     margin: auto;
     font-size: 42px;
-    font-weight: bold;
+    font-weight: 600;
     margin: 0;
     margin-top: 48px;
     text-align: center;
@@ -154,7 +151,7 @@ h2 {
 }
 .counter-value {
     font-size: 28px;
-    font-weight: bold;
+    font-weight: 600;
     margin: 0;
     text-align: center;
 }
@@ -170,7 +167,7 @@ h3 {
     display: block;
     margin: auto;
     font-size: 22px;
-    font-weight: bold;
+    font-weight: 600;
     margin: 0;
     text-align: center;
 }
@@ -400,7 +397,7 @@ a[name] {
     margin-top: 12px;
 }
 .facts-list-item > strong {
-    font-weight: bold;
+    font-weight: 600;
 }
 
 .presents-image {
@@ -437,7 +434,7 @@ a[name] {
 }
 .childcare-names-contact-name {
     font-size: 26px;
-    font-weight: bold;
+    font-weight: 600;
 }
 
 
@@ -471,7 +468,7 @@ a[name] {
 }
 .witnesses-names-contact-name {
     font-size: 26px;
-    font-weight: bold;
+    font-weight: 600;
 }
 .witnesses-name-contact-details {
     font-size: 16px;
@@ -500,8 +497,8 @@ textarea {
     max-width: 600px;
     margin: auto;
     margin-top: 16px;
-    font-family: 'Songti SC', 'Times New Roman', serif;
-    font-weight: bold;
+    font-family: 'EB Garamond', serif;
+    font-weight: 600;
     font-size: 18px;
     border: 0;
     border-bottom: 2px solid #FFF;
@@ -524,8 +521,8 @@ textarea {
 
 button {
     display: block;
-    font-family: 'Songti SC', 'Times New Roman', serif;
-    font-weight: bold;
+    font-family: 'EB Garamond', serif;
+    font-weight: 600;
     font-size: 18px;
     padding: 8px 16px;
     border: 2px solid #FFF;
