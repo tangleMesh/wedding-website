@@ -38,6 +38,8 @@ a[href]:any-link {
     /* color: #FFE8E8; */
     color: #A06C6C;
     text-decoration: none;
+    text-wrap: wrap;
+    word-break: break-word;
 }
 
 .content-section--colored a[href]:any-link,
@@ -84,7 +86,7 @@ strong {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url("./assets/images/teaser_1.jpg");
+    background-image: url("./assets/images/group_2.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -96,8 +98,8 @@ strong {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    background: rgba(0,0,0,.2);
-    box-shadow: 0 0 64px 64px rgba(0,0,0,.2);
+    background: rgba(0,0,0,.4);
+    box-shadow: 0 0 96px 96px rgba(0,0,0,.4);
 }
 .teaser-arrow {
     position: absolute;
@@ -115,7 +117,7 @@ strong {
 h1 {
     display: block;
     margin: auto;
-    font-size: 42px;
+    font-size: 28px;
     font-weight: 600;
     margin: 0;
     margin-top: 48px;
@@ -124,7 +126,7 @@ h1 {
 h2 {
     display: block;
     margin: auto;
-    font-size: 28px;
+    font-size: 22px;
     font-weight: normal;
     margin: 0;
     text-align: center;
@@ -203,6 +205,8 @@ a[name] {
     /* color: #FFE8E8; */
     color: #A06C6C;
     text-decoration: none;
+    text-wrap: wrap;
+    word-break: break-word;
 }
 .menu-item-link:focus,
 .menu-item-link:hover {
@@ -232,6 +236,11 @@ a[name] {
     margin: auto;
     margin-top: 32px;
     text-align: center;
+}
+
+.pictures-description.pictures-description--big {
+    font-size: 1.1em;
+    font-weight: bold;
 }
 
 .contact > strong {
