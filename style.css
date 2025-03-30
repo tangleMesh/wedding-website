@@ -1,21 +1,9 @@
-/* @font-face {
-    font-family: 'Songti SC';
-    font-weight: 600;
-    font-style: normal;
-    src: url("./assets/fonts/STSongti-SC-Bold-02.woff2") format('woff2');
-}
 @font-face {
-    font-family: 'Songti SC';
-    font-weight: 300;
-    font-style: normal;
-    src: url("./assets/fonts/STSongti-SC-Light-04.woff2") format('woff2');
-}
-@font-face {
-    font-family: 'Songti SC';
+    font-family: 'GiveYouGlory';
+    src: url('./assets/GiveYouGlory.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-    src: url("./assets/fonts/STSongti-SC-Regular-07.woff2") format('woff2');
-} */
+}
 
 * {
     box-sizing: border-box;
@@ -27,16 +15,17 @@ body {
     height: 100%;
     margin: 0;
     padding: 0;
-    font-family: 'EB Garamond', serif;
+    font-family: "Jost", sans-serif;
     font-size: 18px;
     overflow-x: hidden;
+    line-height: 1.5;
 }
 
 a[href],
 a[href]:any-link {
     display: inline-block;
     /* color: #FFE8E8; */
-    color: #A06C6C;
+    color: #F09054;
     text-decoration: none;
 }
 
@@ -69,11 +58,13 @@ strong {
 
 }
 .content-section--dark {
-    background-color: #393939;
-    color: #FFF;
+    background-color: #ebbbd7a8;
+    color: #F09054;
+    font-weight: bold;
+    /* color: #FFF; */
 }
 .content-section--colored {
-    background-color: #A06C6C;
+    background-color: #F09054;
     color: #FFF;
 }
 
@@ -96,8 +87,8 @@ strong {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    background: rgba(0,0,0,.2);
-    box-shadow: 0 0 64px 64px rgba(0,0,0,.2);
+    background: rgba(0,0,0,.35);
+    box-shadow: 0 0 64px 64px rgba(0,0,0,.35);
 }
 .teaser-arrow {
     position: absolute;
@@ -107,9 +98,19 @@ strong {
 
 .logo {
     display: block;
-    width: 40%;
-    max-width: 200px;
+    width: 80%;
+    max-width: 600px;
     height: auto;
+    font-family: 'GiveYouGlory';
+    font-size: 6rem;
+    font-weight: 100 !important;
+    text-align: center;
+    line-height: 100% !important;
+}
+@media screen and (max-width:600px) {
+    .logo {
+        font-size: 4rem;
+    }
 }
 
 h1 {
@@ -120,6 +121,11 @@ h1 {
     margin: 0;
     margin-top: 48px;
     text-align: center;
+}
+@media screen and (max-width:600px) {
+    h1 {
+        font-size: 1.4rem;
+    }
 }
 h2 {
     display: block;
@@ -201,7 +207,7 @@ a[name] {
 .menu-item-link:any-link {
     display: inline-block;
     /* color: #FFE8E8; */
-    color: #A06C6C;
+    color: #F09054;
     text-decoration: none;
 }
 .menu-item-link:focus,
@@ -236,6 +242,11 @@ a[name] {
 
 .contact > strong {
     font-weight: 500;
+}
+
+.contact a, .contact a:any-link {
+    color:#F09054 !important;
+    font-weight: bold;
 }
 
 .pictures-image {
@@ -331,6 +342,7 @@ a[name] {
     margin: auto;
     margin-top: 32px;
     border: 0;
+    color: #FFFFFF;
 }
 
 .procedure-table td {
@@ -497,13 +509,13 @@ textarea {
     max-width: 600px;
     margin: auto;
     margin-top: 16px;
-    font-family: 'EB Garamond', serif;
+    font-family:inherit;
     font-weight: 600;
     font-size: 18px;
     border: 0;
-    border-bottom: 2px solid #FFF;
-    background: rgba(255,255,255,.1);
-    color: #FFF;
+    border-bottom: 2px solid rgb(240, 144, 84);
+    background: rgba(240,144,84,.1);
+    color: #F09054;
     padding: 8px 16px;
     resize: none;
 }
@@ -511,7 +523,7 @@ textarea {
 input[type="text"]::placeholder,
 input[type="email"]::placeholder,
 textarea::placeholder {
-    color: #FFF;
+    color: #F09054;
     opacity: .7;
 }
 
@@ -521,19 +533,19 @@ textarea {
 
 button {
     display: block;
-    font-family: 'EB Garamond', serif;
+    font-family:inherit;
     font-weight: 600;
     font-size: 18px;
     padding: 8px 16px;
-    border: 2px solid #FFF;
+    border: 2px solid #F09054;
     background:none;
-    color: #FFF;
+    color: #F09054;
     cursor: pointer;
     margin-top: 16px;
 }
 button:hover {
-    background: #FFF;
-    color: #A06C6C;
+    background: #F09054;
+    color: #FFF;
 }
 
 label {
@@ -556,9 +568,9 @@ input[type="radio"] {
 
 select {
     border: 0;
-    border-bottom: 2px solid #FFF;
+    border-bottom: 2px solid #F09054;
     background: rgba(255,255,255,.1);
-    color: #FFF;
+    color: #F09054;
     padding: 8px 16px;
     margin-right: 16px;
 }
