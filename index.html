@@ -367,6 +367,13 @@
                         "submit": "Submit",
                     };
 
+                    const clearForm = () => {
+                        formEl.querySelector('input[name="teilnahme"]:checked').checked = false;
+                        formEl.querySelector('input[name="namen"]').value = "";
+                        formEl.querySelector('select[name="vegetarisch"]').value = "0";
+                        formEl.querySelector('textarea[name="sonstiges"]').value = "";
+                    }
+
                     $.ajax({
                         url: 'https://docs.google.com/forms/d/e/1FAIpQLScLZ7K6yW4d18sr37kNiXrjt5l_MV6i5VQXQYfR38drKIdHcA/formResponse?submit=Submit',
                         type: 'POST',
@@ -376,10 +383,12 @@
                         success: function(jqXHR, textStatus, errorThrown) {
                             alert ("Dankeschön! Deine Mitteilung ist bei uns eingegangen.");
                             console.log ("success");
+                            clearForm();
                         },
                         error: function(jqXHR, textStatus, errorThrown) {
                             alert ("Dankeschön! Deine Mitteilung ist bei uns eingegangen.");
                             console.log ("error");
+                            clearForm();
                         }
                     });
                 });
